@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-16</date>
+ <date>2017-10-17</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0</api>
@@ -26,15 +26,6 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <dir name="doc">
-    <dir name="Horde">
-     <dir name="Text">
-      <dir name="Textile">
-       <file name="COPYING" role="doc" />
-      </dir> <!-- /doc/Horde/Text/Textile -->
-     </dir> <!-- /doc/Horde/Text -->
-    </dir> <!-- /doc/Horde -->
-   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="Text">
@@ -61,6 +52,7 @@
      </dir> <!-- /test/Horde/Text -->
     </dir> <!-- /test/Horde -->
    </dir> <!-- /test -->
+   <file name="LICENSE" role="doc" />
    <file name="README.rst" role="doc" />
   </dir> <!-- / -->
  </contents>
@@ -87,9 +79,9 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="README.rst" name="README.rst" />
-   <install as="COPYING" name="doc/Horde/Text/Textile/COPYING" />
    <install as="Horde/Text/Textile.php" name="lib/Horde/Text/Textile.php" />
+   <install as="LICENSE" name="LICENSE" />
+   <install as="README.rst" name="README.rst" />
    <install as="Horde/Text/Textile/AllTests.php" name="test/Horde/Text/Textile/AllTests.php" />
    <install as="Horde/Text/Textile/AttributesTest.php" name="test/Horde/Text/Textile/AttributesTest.php" />
    <install as="Horde/Text/Textile/BlockModifiersTest.php" name="test/Horde/Text/Textile/BlockModifiersTest.php" />
@@ -101,7 +93,7 @@
    <install as="Horde/Text/Textile/TablesTest.php" name="test/Horde/Text/Textile/TablesTest.php" />
    <install as="Horde/Text/Textile/TestCase.php" name="test/Horde/Text/Textile/TestCase.php" />
    <install as="Horde/Text/Textile/WritingTest.php" name="test/Horde/Text/Textile/WritingTest.php" />
-   </filelist>
+  </filelist>
  </phprelease>
  <changelog>
   <release>
@@ -113,7 +105,7 @@
     <release>beta</release>
     <api>beta</api>
    </stability>
-   <date>2017-10-16</date>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/bsd">BSD-2-Clause</license>
    <notes>
 * [jan] Mark PHP 7 as supported.
