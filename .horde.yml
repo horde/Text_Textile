@@ -5,3 +5,25 @@ full: Textile formatting library
 description: A Humane Web Text Generator.
 list: dev
 type: library
+authors:
+  -
+    name: Chuck Hagenbuch
+    user: chuck
+    email: chuck@horde.org
+    active: true
+    role: lead
+version:
+  release: 1.0.0alpha1
+  api: 1.0.0
+state:
+  release: beta
+  api: beta
+license:
+  identifier: BSD-2-Clause
+  uri: http://www.horde.org/licenses/bsd
+dependencies:
+  required:
+    php: ^5.3 || ^7
+  optional:
+    pear:
+      pear.horde.org/Horde_Test: ^2.1
