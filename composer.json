@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-text-textile",
+    "name": "horde/text-textile",
     "description": "Textile formatting library",
     "type": "library",
     "homepage": "https://pear.horde.org",
