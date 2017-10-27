@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-20</date>
+ <date>2017-10-27</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0</api>
@@ -26,6 +26,15 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
+   <dir name="doc">
+    <dir name="Horde">
+     <dir name="Text">
+      <dir name="Textile">
+       <file name="CHANGES" role="doc" />
+      </dir> <!-- /doc/Horde/Text/Textile -->
+     </dir> <!-- /doc/Horde/Text -->
+    </dir> <!-- /doc/Horde -->
+   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="Text">
@@ -78,6 +87,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Text/Textile/CHANGES" />
    <install as="Horde/Text/Textile.php" name="lib/Horde/Text/Textile.php" />
    <install as="LICENSE" name="LICENSE" />
    <install as="README.rst" name="README.rst" />
@@ -103,7 +113,7 @@
     <release>beta</release>
     <api>beta</api>
    </stability>
-   <date>2017-10-20</date>
+   <date>2017-10-27</date>
    <license uri="http://www.horde.org/licenses/bsd">BSD-2-Clause</license>
    <notes>
 * [jan] Mark PHP 7 as supported.
