@@ -53,7 +53,6 @@
        <file name="bootstrap.php" role="test" />
        <file name="ExternalReferencesTest.php" role="test" />
        <file name="ListsTest.php" role="test" />
-       <file name="phpunit.xml" role="test" />
        <file name="PhraseModifiersTest.php" role="test" />
        <file name="TablesTest.php" role="test" />
        <file name="TestCase.php" role="test" />
@@ -97,7 +96,6 @@
    <install as="Horde/Text/Textile/bootstrap.php" name="test/Horde/Text/Textile/bootstrap.php" />
    <install as="Horde/Text/Textile/ExternalReferencesTest.php" name="test/Horde/Text/Textile/ExternalReferencesTest.php" />
    <install as="Horde/Text/Textile/ListsTest.php" name="test/Horde/Text/Textile/ListsTest.php" />
-   <install as="Horde/Text/Textile/phpunit.xml" name="test/Horde/Text/Textile/phpunit.xml" />
    <install as="Horde/Text/Textile/PhraseModifiersTest.php" name="test/Horde/Text/Textile/PhraseModifiersTest.php" />
    <install as="Horde/Text/Textile/TablesTest.php" name="test/Horde/Text/Textile/TablesTest.php" />
    <install as="Horde/Text/Textile/TestCase.php" name="test/Horde/Text/Textile/TestCase.php" />
