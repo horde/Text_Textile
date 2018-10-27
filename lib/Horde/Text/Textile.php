@@ -471,7 +471,7 @@ class Horde_Text_Textile {
                 ($f)(?!$f)
                 (" . self::REGEX_C . ")
                 (?::(\S+))?
-                ([^\s$f]+|\S[^$f\n]*[^\s$f\n])
+                ([^\s$f]+|\S[^\n$f]*[^\s\n$f])
                 ([$pnct]*)
                 $f
                 (?:$|([\]}])|(?=[[:punct:]]{1,2}|\s))
