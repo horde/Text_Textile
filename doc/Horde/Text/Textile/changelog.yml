@@ -9,5 +9,6 @@
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
   notes: |
+    [jan] Fix regular expression error with PHP 7.3.
     [jan] Mark PHP 7 as supported.
     Initial Horde 4 package.
