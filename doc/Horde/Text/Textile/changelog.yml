@@ -1,6 +1,6 @@
 ---
-1.0.0alpha2:
-  api: 1.0.0alpha1
+3.0.0alpha1:
+  api: 3.0.0alpha1
   state:
     release: alpha
     api: alpha
@@ -9,7 +9,6 @@
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
   notes: |+
-    
 1.0.0alpha1:
   api: 1.0.0alpha1
   state:
