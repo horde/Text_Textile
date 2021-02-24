@@ -1,7 +1,7 @@
 {
-    "name": "horde/text-textile",
+    "name": "horde/text_textile",
     "description": "Textile formatting library",
-    "type": "library",
+    "type": "horde-library",
     "homepage": "https://www.horde.org",
     "license": "BSD-2-Clause",
     "authors": [
@@ -12,26 +12,26 @@
         }
     ],
     "version": "1.0.0alpha1",
-    "time": "2017-11-11",
+    "time": "2021-02-24",
     "repositories": [
         {
-            "type": "pear",
-            "url": "https://pear.horde.org"
+            "type": "composer",
+            "url": "https://horde-satis.maintaina.com/"
         }
     ],
     "require": {
+        "horde/horde-installer-plugin": "*",
         "php": "^5.3 || ^7"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Test": "^2.1"
-    },
-    "replace": {
-        "pear-pear.horde.org/Horde_Text_Textile": "1.*",
-        "pear-horde/Horde_Text_Textile": "1.*"
+        "horde/test": "^2.1"
     },
     "autoload": {
         "psr-0": {
             "Horde_Text_Textile": "lib/"
+        },
+        "psr-4": {
+            "Horde\\Text\\Textile\\": "src/"
         }
     }
 }

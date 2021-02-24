@@ -1,6 +1,6 @@
 ---
 1.0.0alpha1:
-  api: 1.0.0
+  api: 1.0.0alpha1
   state:
     release: beta
     api: beta
