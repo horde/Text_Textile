@@ -29,9 +29,6 @@
     "autoload": {
         "psr-0": {
             "Horde_Text_Textile": "lib/"
-        },
-        "psr-4": {
-            "Horde\\Text\\Textile\\": "src/"
         }
     }
 }
