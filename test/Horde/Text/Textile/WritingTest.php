@@ -6,6 +6,10 @@
  */
 
 /** Horde_Text_Textile_TestCase */
+namespace Horde\Text;
+use \Textile;
+use Horde_Text_Textile_TestCase;
+
 require_once __DIR__ . '/TestCase.php';
 
 /**
@@ -15,7 +19,7 @@ require_once __DIR__ . '/TestCase.php';
  * @package    Text_Textile
  * @subpackage UnitTests
  */
-class Horde_Text_Textile_WritingTest extends Horde_Text_Textile_TestCase {
+class WritingTest extends Horde_Text_Textile_TestCase {
 
     public function testParagraphs()
     {
