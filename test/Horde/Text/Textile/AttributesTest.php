@@ -4,13 +4,7 @@
  * @package    Text_Textile
  * @subpackage UnitTests
  */
-
-/** Horde_Text_Textile_TestCase */
-namespace Horde\Text;
-use \Textile;
-use Horde_Text_Textile_TestCase;
-
-require_once __DIR__ . '/TestCase.php';
+namespace Horde\Text\Textile;
 
 /**
  * These tests correspond to "4. Attributes" from http://hobix.com/textile/.
@@ -19,7 +13,7 @@ require_once __DIR__ . '/TestCase.php';
  * @package    Text_Textile
  * @subpackage UnitTests
  */
-class AttributesTest extends Horde_Text_Textile_TestCase {
+class AttributesTest extends BaseTestCase {
 
     public function testBlockAttributes()
     {
