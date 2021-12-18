@@ -23,7 +23,7 @@ license:
   uri: http://www.horde.org/licenses/bsd
 dependencies:
   required:
-    php: ^7
+    php: ^7.4 || ^8
   optional:
     composer:
       horde/test: ^3
